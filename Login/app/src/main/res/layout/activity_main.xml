@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/purple_500"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WelCome To login page"
+        android:textSize="35dp"
+        android:padding="30dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/teal_200"
+        android:background="@color/design_default_color_primary_dark"
+
+        />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:textSize="35dp"
+        android:inputType="text"
+        android:background="@color/teal_200"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textSize="35dp"
+        android:inputType="textPassword"
+        android:background="@color/teal_200"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:padding="20dp"
+        android:text="LOGIN"
+        android:onClick="loginc"/>
+</LinearLayout>
